@@ -19,7 +19,7 @@ public class UserDaoJDBCImpl implements UserDao {
                              "name VARCHAR(25), " +
                              "last_name VARCHAR(30), " +
                              "age INT)")) {
-            statement.execute();
+            statement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
