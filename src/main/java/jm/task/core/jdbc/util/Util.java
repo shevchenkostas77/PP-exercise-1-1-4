@@ -32,7 +32,7 @@ public class Util {
         Properties properties = new Properties();
 
         try {
-            Reader reader = new FileReader("resoures/database.properties");
+            Reader reader = new FileReader("src/resoures/database.properties");
             properties.load(reader);
 
             return properties;
